@@ -1,0 +1,161 @@
+:root{
+  --pink: #EF3C82;
+  --white: white;
+  --black: black;
+  --red: #E74C3C;
+  --blue: #3498DB;
+  --purple: #9B59B6;
+  --yellow: #FEB506;
+  --green: #62CB31;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin: 0;
+  background-color: #ffffffcc;
+}
+
+.btn-container{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-ghost{
+  position: relativate;
+  display: inline-block;
+  border: 2px solid var(--white);
+  padding: 30px 85px;
+  color: var(--black);
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--white);
+  transition: color 0.5s, background 0.5s;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 3em;
+  min-width: 140px;
+  text-align: center;
+}
+
+.btn-ghost.round{
+  border-radius: 20px;
+}
+
+.btn-ghost:hover{
+  color: var(--white);
+  background-color: transparent;
+}
+
+.btn-ghost:active{
+  box-shadow: inset 0 0 20px var(--white);
+}
+
+.btn-ghost.pink{
+  background-color: var(--pink);
+  border-color: var(--pink);
+  color: var(--white);
+  padding: 30 45;
+}
+
+.btn-ghost.pink:hover{
+  background-color: transparent;
+  color: var(--pink);
+}
+
+.btn-ghost.pink:active{
+  box-shadow: inset 0 0 20px var(--pink);
+}
+
+/** RED */
+.btn-ghost.red{
+  background-color: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+  padding: 30 60;
+
+
+}
+
+.btn-ghost.red:hover{
+  background-color: transparent;
+  color: var(--red);
+}
+
+.btn-ghost.red:active{
+  box-shadow: inset 0 0 20px var(--red);
+}
+
+/** BLUE */
+.btn-ghost.blue{
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--white);
+  padding: 30 78;
+}
+
+.btn-ghost.blue:hover{
+  background-color: transparent;
+  color: var(--blue);
+}
+
+.btn-ghost.blue:active{
+  box-shadow: inset 0 0 20px var(--blue);
+}
+
+/** PURPLE */
+.btn-ghost.purple{
+  background-color: var(--purple);
+  border-color: var(--purple);
+  color: var(--white);
+  padding: 30 60;
+
+}
+
+.btn-ghost.purple:hover{
+  background-color: transparent;
+  color: var(--purple);
+}
+
+.btn-ghost.purple:active{
+  box-shadow: inset 0 0 20px var(--purple);
+}
+
+/** YELLOW */
+.btn-ghost.yellow{
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--white);
+  padding: 30 72;
+}
+
+.btn-ghost.yellow:hover{
+  background-color: transparent;
+  color: var(--yellow);
+}
+
+.btn-ghost.yellow:active{
+  box-shadow: inset 0 0 20px var(--yellow);
+}
+
+/** GREEN */
+.btn-ghost.green{
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+  padding: 30 80;
+}
+
+.btn-ghost.green:hover{
+  background-color: transparent;
+  color: var(--green);
+}
+
+.btn-ghost.green:active{
+  box-shadow: inset 0 0 20px var(--green);
+}
